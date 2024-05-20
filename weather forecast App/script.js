@@ -59,7 +59,7 @@ function displayWeather(data) {
 
         tempDivInfo.innerHTML = temperatureHTML;
         weatherInfoDiv.innerHTML = weatherHTML;
-        weatherIcon.scr = iconUrl;
+        weatherIcon.src = iconUrl;
         weatherIcon.alt = description;
 
         showImage();
@@ -80,7 +80,7 @@ function displayHourlyForecast(hourlyData) {
         const hourlyItemHtml = `
              <div class = "hourly-item">
                   <span>${hour}:00</span>
-                  <img scr="${iconUrl}" alt="Hourly Weather Icon">
+                  <img src="${iconUrl}" alt="Hourly Weather Icon">
                   <span>${temperature}°C</span>
              </div>
             `;
